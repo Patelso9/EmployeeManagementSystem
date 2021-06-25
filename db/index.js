@@ -55,7 +55,7 @@ class DB {
       // id, title, salary FROM role TABLE AND department name FROM department TABLE
       // YOU NEED TO USE LEFT JOIN TO JOIN role and department TABLES
       // YOUR CODE HERE
-      "SELECT id, title, salary FROM role AND name FROM department LEFT JOIN role ON role.department_id = department.id LEFT JOIN employee ON employee.role_id = role.id"
+      "SELECT role.id, role.title, role.salary, name FROM department LEFT JOIN role ON role.department_id = department.id LEFT JOIN employee ON employee.role_id = role.id"
     );
   }
 
