@@ -1,3 +1,29 @@
+# Employee Management System
+
+## Description
+Interface created to manage employees. 
+
+## Links
+Youtube: https://youtu.be/Hq4BBWD34wk
+Github: https://github.com/Patelso9/EmployeeManagementSystem
+
+## How to use
+Run (npm i) in your terminal to download all the packages used. 
+Then start the program using (npm start) or (node index.js)
+
+## Future Development
+
+  * Update employee managers
+
+  * View employees by manager
+
+  * Delete departments, roles, and employees
+
+  * View the total utilized budget of a department -- ie the combined salaries of all employees in that department
+
+
+____________________________________________
+
 # Unit 12 MySQL Homework: Employee Tracker
 
 Developers are often tasked with creating interfaces that make it easy for non-developers to view and interact with information stored in databases. Often these interfaces are known as **C**ontent **M**anagement **S**ystems. In this homework assignment, your challenge is to architect and build a solution for managing a company's employees using node, inquirer, and MySQL.
